@@ -47,26 +47,6 @@ The dataset consists of 8 related tables imported as CSV files into MySQL:
 - **Artist catalog:** all 8 artists (The Beatles, Adele, Eminem, Arijit Singh, Coldplay, Taylor Swift, Linkin Park, A.R. Rahman) each have exactly 1 album and 2 tracks
 - **Most frequent buyers:** a three-way tie between Karan Jain, Rohit Kumar, and Vikas Yadav, each with 2 invoices
 
-> **Note:** This is a small, evenly-structured sample dataset (16 tracks, 10 customers) built for practicing SQL concepts rather than a large real-world dataset — insights are illustrative of the querying approach rather than large-scale trends.
 
-## ▶️ How to Run
 
-1. Import each CSV file in `data/` into a MySQL database (e.g., via MySQL Workbench's Table Data Import Wizard). This automatically creates the tables and loads the data — no manual schema setup needed.
-2. Run the queries in `queries.sql` against the imported database to reproduce the results above.
 
-## 📂 Repository Structure
-
-```
-music-database-analysis/
-├── data/
-│   ├── artist.csv
-│   ├── album.csv
-│   ├── track.csv
-│   ├── genre.csv
-│   ├── media_type.csv
-│   ├── customer.csv
-│   ├── invoice.csv
-│   └── invoice_line.csv
-├── queries.sql
-└── README.md
-```

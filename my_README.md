@@ -45,7 +45,7 @@ The dataset consists of 8 related tables imported as CSV files into MySQL:
 - **Catalog size:** 16 tracks total, averaging **$1.04** per track
 - **Total revenue:** **$39.92** across all invoices, averaging **$2.66** per invoice
 - **Artist catalog:** all 8 artists (The Beatles, Adele, Eminem, Arijit Singh, Coldplay, Taylor Swift, Linkin Park, A.R. Rahman) each have exactly 1 album and 2 tracks
-- **Most frequent buyers:** a three-way tie between Karan Jain, Rohit Kumar, and Vikas Yadav, each with 2 invoices
+- **Most frequent buyers:** a three-way tie between Karan Jain, Rohit Kumar, and Vikas Yadav, each with 2 invoices.
 
 
 
